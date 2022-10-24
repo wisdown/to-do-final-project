@@ -4,7 +4,7 @@ import { initDb } from "./db/index.js";
 import { ToDoRequestHandler } from "./handlers/todos.js";
 const Api = Express();
 
-// middleware de seguridad 
+// middleware de seguridad
 Api.use(cors());
 // middleware para convertir a formato Jason.
 Api.use(Express.json());
